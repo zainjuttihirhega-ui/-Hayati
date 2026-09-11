@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ELFIQ Nic Salts: Flavors, Strengths, Safety and Buying Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F5F7;
+    --paper:#FFFFFF;
+    --ink:#14171C;
+    --ink-soft:#4A5058;
+    --steel:#2C3E50;
+    --steel-deep:#1C2833;
+    --amber:#E8A33D;
+    --amber-deep:#BD7F26;
+    --red:#D64545;
+    --red-deep:#A93434;
+    --line:rgba(20,23,28,0.1);
+    --shadow: 0 30px 60px -30px rgba(20,23,28,0.28);
+  }
+
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Inter', sans-serif;
+    font-weight:400;
+    line-height:1.75;
+    width:100%;
+    overflow-x:hidden;
+  }
+  img,svg{display:block; max-width:100%;}
+  a{color:inherit;}
+  ul{list-style:none;}
+
+  h1,h2,h3,h4{
+    font-family:'Barlow Condensed', sans-serif;
+    font-weight:700;
+    color:var(--ink);
+    letter-spacing:0.005em;
+    line-height:1.14;
+    text-transform:none;
+  }
+
+  .wrap{ max-width:1160px; margin:0 auto; padding:0 32px; }
+
+  .age-bar{
+    background:var(--red-deep); color:#fff; text-align:center;
+    font-size:12.5px; font-weight:600; letter-spacing:0.04em;
+    padding:8px 16px;
+  }
+
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:10px;
+    font-size:12px; letter-spacing:0.16em; text-transform:uppercase;
+    font-weight:700; color:var(--steel); margin-bottom:16px;
+    font-family:'Inter',sans-serif;
+  }
+  .eyebrow::before{ content:""; width:22px; height:2px; background:var(--amber); display:inline-block; }
+
+  .cta-link{
+    color:var(--steel); font-weight:700; text-decoration:none;
+    border-bottom:1.5px solid var(--amber); padding-bottom:1px;
+    transition:color .2s ease, border-color .2s ease;
+  }
+  .cta-link:hover{ color:var(--amber-deep); border-color:var(--steel); }
+
+  /* ---------- HEADER ---------- */
+  header.site-header{
+    position:sticky; top:0; z-index:100;
+    background:var(--steel-deep);
+    border-bottom:1px solid rgba(244,245,247,0.1);
+  }
+  .header-row{
+    max-width:1160px; margin:0 auto; padding:16px 32px;
+    display:flex; align-items:center; justify-content:space-between;
+    gap:24px; white-space:nowrap;
+  }
+  .brand{
+    display:flex; align-items:center; gap:10px;
+    font-family:'Barlow Condensed', sans-serif; font-size:22px; font-weight:800;
+    color:#fff; text-decoration:none; flex-shrink:0;
+  }
+  .brand-mark{
+    width:30px; height:30px; border-radius:8px;
+    background:linear-gradient(135deg, var(--amber), var(--steel));
+    flex-shrink:0;
+  }
+  nav.main-nav{ display:flex; align-items:center; gap:24px; overflow-x:auto; }
+  nav.main-nav a{
+    font-size:13.5px; font-weight:500; color:rgba(255,255,255,0.78);
+    text-decoration:none; transition:color .2s ease;
+    font-family:'Inter',sans-serif;
+  }
+  nav.main-nav a:hover{ color:var(--amber); }
+  .nav-cta{
+    background:var(--amber); color:var(--steel-deep) !important;
+    padding:9px 18px; border-radius:6px; font-weight:700 !important; flex-shrink:0;
+  }
+  .nav-cta:hover{ color:var(--steel-deep) !important; background:#f0b558; }
+
+  /* ---------- HERO ---------- */
+  .hero{
+    position:relative; background:var(--steel-deep); color:#fff;
+    padding:80px 0 100px; overflow:hidden;
+  }
+  .hero::before{
+    content:""; position:absolute; right:-140px; top:-130px;
+    width:460px; height:460px; border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, var(--amber) 0%, var(--amber-deep) 55%, transparent 76%);
+    opacity:0.32;
+  }
+  .hero-inner{ position:relative; z-index:2; max-width:820px; }
+  .hero h1{
+    font-size:clamp(30px, 4.6vw, 50px); color:#fff; margin-bottom:18px;
+  }
+  .hero h1 span{ color:var(--amber); }
+  .hero .subtitle{
+    font-size:17px; color:rgba(255,255,255,0.8); max-width:660px;
+    margin-bottom:28px; font-weight:300; font-family:'Inter',sans-serif;
+  }
+  .hero-intro{
+    font-size:15.5px; color:rgba(255,255,255,0.92); max-width:720px;
+    background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.14);
+    border-left:3px solid var(--amber); padding:22px 26px; border-radius:4px 14px 4px 14px;
+    font-family:'Inter',sans-serif;
+  }
+  .hero-intro .cta-link{ color:var(--amber); border-color:rgba(232,163,61,0.6); }
+  .hero-intro .cta-link:hover{ color:#fff; border-color:#fff; }
+
+  .hero-badges{ display:flex; gap:10px; margin-top:28px; flex-wrap:wrap; }
+  .hero-badge{
+    background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.16);
+    padding:8px 16px; border-radius:100px; font-size:12.5px; font-weight:600; color:rgba(255,255,255,0.85);
+    font-family:'Inter',sans-serif;
+  }
+  .hero-badge.warn{ background:rgba(214,69,69,0.18); border-color:rgba(214,69,69,0.4); color:#ffb3ab; }
+
+  /* ---------- SECTIONS ---------- */
+  section{ padding:76px 0; }
+  section.alt{ background:var(--paper); }
+  .section-head{ max-width:720px; margin-bottom:40px; }
+  .section-head h2{ font-size:clamp(24px, 2.8vw, 32px); margin-bottom:14px; }
+  .section-head p{ color:var(--ink-soft); font-size:16px; font-family:'Inter',sans-serif; }
+
+  p.body-text{ color:var(--ink-soft); max-width:820px; font-size:16px; margin-bottom:18px; font-family:'Inter',sans-serif; }
+  p.body-text:last-child{ margin-bottom:0; }
+
+  .panel{
+    background:var(--paper); border:1px solid var(--line);
+    border-radius:14px; padding:28px; box-shadow:var(--shadow);
+  }
+  section.alt .panel{ background:var(--bg); }
+
+  .two-col{ display:grid; grid-template-columns:1fr 1fr; gap:36px; align-items:start; }
+  @media (max-width:820px){ .two-col{ grid-template-columns:1fr; } }
+
+  /* table */
+  .table-wrap{ overflow-x:auto; border-radius:14px; border:1px solid var(--line); box-shadow:var(--shadow); }
+  table{ width:100%; border-collapse:collapse; background:var(--paper); min-width:560px; }
+  thead th{ background:var(--steel-deep); color:#fff; text-align:left; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:16px; padding:15px 20px; }
+  tbody td{ padding:13px 20px; font-size:14.5px; color:var(--ink-soft); border-bottom:1px solid var(--line); font-family:'Inter',sans-serif; }
+  tbody tr:nth-child(even){ background:rgba(44,62,80,0.05); }
+  tbody tr:last-child td{ border-bottom:none; }
+  tbody td:first-child{ font-weight:700; color:var(--ink); }
+
+  .warn-box{
+    background:rgba(214,69,69,0.08); border:1px solid rgba(214,69,69,0.32);
+    border-radius:14px; padding:24px 26px; margin-top:22px;
+  }
+  .warn-box h4{ font-size:16px; color:var(--red-deep); margin-bottom:8px; font-family:'Barlow Condensed',sans-serif; }
+  .warn-box p{ font-size:15px; color:var(--ink-soft); margin:0; font-family:'Inter',sans-serif; }
+
+  .alert-box{
+    background:rgba(44,62,80,0.07); border:1px solid rgba(44,62,80,0.25);
+    border-radius:14px; padding:24px 26px; margin-top:22px;
+  }
+  .alert-box h4{ font-size:16px; color:var(--steel); margin-bottom:8px; font-family:'Barlow Condensed',sans-serif; }
+  .alert-box p{ font-size:15px; color:var(--ink-soft); margin:0; font-family:'Inter',sans-serif; }
+
+  .checklist{ margin-top:14px; }
+  .checklist li{
+    display:flex; gap:10px; align-items:flex-start; font-size:15px; color:var(--ink-soft);
+    padding:9px 0; border-bottom:1px dashed var(--line); font-family:'Inter',sans-serif;
+  }
+  .checklist li:last-child{ border-bottom:none; }
+  .checklist li::before{ content:"✓"; color:var(--steel); font-weight:700; flex-shrink:0; }
+
+  /* flavor cards */
+  .flavor-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px; margin-top:14px; }
+  .flavor-item{
+    background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:18px 20px; border-top:3px solid var(--amber);
+  }
+  section.alt .flavor-item{ background:var(--bg); }
+  .flavor-item h4{ font-size:17px; margin-bottom:6px; }
+  .flavor-item p{ font-size:14px; color:var(--ink-soft); font-family:'Inter',sans-serif; }
+
+  .inline-link-note{ margin:22px 0; font-size:16px; color:var(--ink-soft); font-family:'Inter',sans-serif; }
+
+  /* symptom grid */
+  .symptom-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:10px; margin-top:14px; }
+  .symptom-item{
+    background:rgba(214,69,69,0.06); border:1px solid rgba(214,69,69,0.22); border-radius:10px;
+    padding:12px 16px; font-size:14.5px; color:var(--ink-soft); font-family:'Inter',sans-serif; font-weight:500;
+  }
+
+  /* conclusion */
+  .conclusion{
+    background:var(--steel-deep); color:#fff; border-radius:20px;
+    padding:50px 44px; position:relative; overflow:hidden;
+  }
+  .conclusion::before{
+    content:""; position:absolute; right:-100px; bottom:-120px; width:320px; height:320px;
+    border-radius:50%; background:radial-gradient(circle, var(--amber) 0%, transparent 70%); opacity:0.3;
+  }
+  .conclusion h2{ color:#fff; position:relative; z-index:1; }
+  .conclusion p{ color:rgba(255,255,255,0.82); position:relative; z-index:1; max-width:720px; margin-top:14px; font-size:16px; font-family:'Inter',sans-serif; }
+  @media (max-width:600px){ .conclusion{ padding:36px 24px; } }
+
+  /* FAQ */
+  .faq-list{ max-width:840px; }
+  details{
+    background:var(--paper); border:1px solid var(--line); border-radius:12px;
+    padding:18px 22px; margin-bottom:10px;
+  }
+  details[open]{ border-color:var(--amber); }
+  summary{
+    cursor:pointer; font-family:'Barlow Condensed', sans-serif; font-weight:700; font-size:17px; color:var(--ink);
+    list-style:none; display:flex; justify-content:space-between; align-items:center; gap:16px;
+  }
+  summary::-webkit-details-marker{ display:none; }
+  summary::after{
+    content:"+"; font-family:'Inter', sans-serif; font-size:20px; font-weight:400; color:var(--amber-deep);
+    transition:transform .25s ease; flex-shrink:0;
+  }
+  details[open] summary::after{ content:"–"; }
+  details p{ margin-top:12px; color:var(--ink-soft); font-size:14.5px; font-family:'Inter',sans-serif; }
+
+  .med-disclaimer{
+    background:var(--bg); border:1px solid var(--line); border-radius:14px;
+    padding:22px 26px; margin-top:30px; font-size:13.5px; color:var(--ink-soft); font-family:'Inter',sans-serif;
+  }
+
+  /* ---------- FOOTER ---------- */
+  footer{ background:var(--steel-deep); color:#fff; padding:56px 0 26px; }
+  .footer-top{
+    display:grid; grid-template-columns:1.4fr 1fr 1fr 1fr; gap:36px;
+    padding-bottom:38px; border-bottom:1px solid rgba(255,255,255,0.12);
+  }
+  @media (max-width:820px){ .footer-top{ grid-template-columns:1fr 1fr; } }
+  @media (max-width:520px){ .footer-top{ grid-template-columns:1fr; } }
+  .footer-brand .brand{ margin-bottom:14px; }
+  .footer-brand p{ color:rgba(255,255,255,0.68); font-size:14px; max-width:280px; font-family:'Inter',sans-serif; }
+  .footer-col h4{
+    font-family:'Inter', sans-serif; font-size:12.5px; letter-spacing:0.1em; text-transform:uppercase;
+    color:var(--amber); margin-bottom:15px; font-weight:700;
+  }
+  .footer-col ul li{ margin-bottom:9px; }
+  .footer-col a{ color:rgba(255,255,255,0.75); text-decoration:none; font-size:14px; transition:color .2s ease; font-family:'Inter',sans-serif; }
+  .footer-col a:hover{ color:#fff; }
+
+  .footer-bottom{ display:flex; align-items:center; justify-content:space-between; gap:20px; padding-top:22px; flex-wrap:wrap; }
+  .footer-bottom p{ color:rgba(255,255,255,0.55); font-size:13px; font-family:'Inter',sans-serif; }
+  .social-row{ display:flex; gap:12px; }
+  .social-row a{
+    width:36px; height:36px; border-radius:50%; background:rgba(255,255,255,0.08);
+    display:flex; align-items:center; justify-content:center; transition:background .2s ease, transform .2s ease;
+  }
+  .social-row a:hover{ background:var(--amber); transform:translateY(-3px); }
+  .social-row svg{ width:16px; height:16px; fill:#fff; }
+
+  @media (max-width:640px){
+    .wrap{ padding:0 20px; }
+    .header-row{ padding:14px 20px; }
+    nav.main-nav{ gap:14px; }
+    section{ padding:54px 0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="age-bar">18+ Age-Restricted Product — Contains Nicotine, an Addictive Chemical</div>
+
+<header class="site-header">
+  <div class="header-row">
+    <a href="#top" class="brand"><span class="brand-mark"></span>ELFIQ Guide</a>
+    <nav class="main-nav">
+      <a href="#what-is-it">Overview</a>
+      <a href="#flavors">Flavors</a>
+      <a href="#strength">Strength</a>
+      <a href="#safety">Safety</a>
+      <a href="https://highrockvapes.ie/collections/elf-bar-elfiq-eliquid" class="nav-cta">Shop Collection</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <h1>ELFIQ Nic Salts: Flavors, <span>Strengths</span>, Safety and Buying Guide</h1>
+      <p class="subtitle">Nicotine salts are different from traditional freebase nicotine, formulated for a smoother vaping experience — but nicotine remains an addictive substance, so understanding the product matters.</p>
+      <p class="hero-intro">
+        <a href="https://highrockvapes.ie/collections/elf-bar-elfiq-eliquid" class="cta-link">ELFIQ nic salts</a> are nicotine-salt vaping products that people may encounter while searching for information about modern vape liquids and disposable-vape alternatives. The term can refer to ELFIQ-branded nicotine salt products, their flavor options, nicotine strengths, compatibility, and general product information. This guide explains what they are, how nicotine salts work, flavor considerations, device compatibility, storage, and safety.
+      </p>
+      <div class="hero-badges">
+        <span class="hero-badge">Pod-Style Compatible</span>
+        <span class="hero-badge">Multiple Flavor Profiles</span>
+        <span class="hero-badge warn">Contains Nicotine</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT ARE THEY -->
+  <section id="what-is-it">
+    <div class="wrap">
+      <div class="two-col">
+        <div>
+          <span class="eyebrow">The Basics</span>
+          <h2 style="font-size:clamp(24px,3vw,32px); margin-bottom:16px;">What Are ELFIQ Nic Salts?</h2>
+          <p class="body-text">ELFIQ nic salts are vape liquids formulated with nicotine salts rather than conventional freebase nicotine. Nicotine salts are made by combining nicotine with an acid, commonly benzoic acid or another suitable organic acid, which changes the chemical properties of the nicotine formulation.</p>
+        </div>
+        <div class="panel">
+          <p class="body-text" style="margin-bottom:0;">This can make higher nicotine concentrations feel smoother to inhale than some equivalent freebase formulations. ELFIQ products may be marketed for use with compatible pod systems or low-power vaping devices — exact formulation, nicotine concentration, bottle size, and availability can vary by market. Because nicotine products are age-restricted in many jurisdictions, buyers should also check their local regulations before purchasing or using them.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW NICOTINE SALTS WORK -->
+  <section class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Understanding the Formulation</span>
+        <h2>How Nicotine Salts Work</h2>
+        <p>Traditional freebase nicotine has historically been common in e-liquids.</p>
+      </div>
+      <p class="body-text">Nicotine salts modify the formulation so that nicotine can be delivered in a way many users perceive as less harsh at higher strengths. This does not mean nicotine salts are harmless — a smoother sensation can make it easier for someone to consume nicotine without noticing how much they are taking, so concentration and frequency of use matter.</p>
+      <div class="warn-box">
+        <h4>Not a Starting Point</h4>
+        <p>People who do not currently use nicotine should not start using nicotine products simply because a particular formulation feels smoother.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- POD DEVICES -->
+  <section>
+    <div class="wrap two-col">
+      <div>
+        <span class="eyebrow">Compatibility Matters</span>
+        <h2 style="font-size:26px; margin-bottom:16px;">ELFIQ Nic Salts and Pod Devices</h2>
+        <p class="body-text">Nicotine salts are commonly associated with pod-style vaping devices because these devices can operate at relatively low power and use compact quantities of e-liquid.</p>
+      </div>
+      <div class="panel">
+        <p class="body-text" style="margin-bottom:0;">Not every vape liquid is suitable for every device. Before filling a pod or tank, users should check the manufacturer's specifications for the device, recommended liquid type, coil resistance, and nicotine strength. Using an incompatible liquid can lead to poor performance, leaking, burnt coils, or an unpleasant vaping experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLAVORS -->
+  <section class="alt" id="flavors">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Choose Your Profile</span>
+        <h2>Flavor Choices</h2>
+        <p>Flavor is one of the main factors people consider when searching for ELFIQ nic salts.</p>
+      </div>
+      <p class="body-text">Depending on the product range and market, nicotine salt products can be offered in categories such as fruit, menthol, beverage-inspired, dessert, or tobacco-style flavors.</p>
+      <div class="flavor-grid">
+        <div class="flavor-item"><h4>Fruit</h4><p>Sweet, fresh, or juicy fruit notes.</p></div>
+        <div class="flavor-item"><h4>Menthol</h4><p>Cool and refreshing sensation.</p></div>
+        <div class="flavor-item"><h4>Fruit &amp; Ice</h4><p>Fruit flavor combined with cooling notes.</p></div>
+        <div class="flavor-item"><h4>Tobacco</h4><p>Traditional tobacco-inspired profile.</p></div>
+        <div class="flavor-item"><h4>Beverage</h4><p>Flavors inspired by drinks.</p></div>
+        <div class="flavor-item"><h4>Dessert</h4><p>Sweet and creamy profiles.</p></div>
+      </div>
+      <p class="body-text" style="margin-top:22px;">Specific flavors and formulations can change over time, so product packaging and official manufacturer information should be checked for the current range.</p>
+    </div>
+  </section>
+
+  <!-- STRENGTH -->
+  <section id="strength">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Getting It Right</span>
+        <h2>Choosing a Nicotine Strength</h2>
+        <p>Nicotine strength is another major consideration.</p>
+      </div>
+      <p class="body-text">Different products can contain different nicotine concentrations, and the correct legal labeling varies by market. Users should always check the bottle or manufacturer's specifications rather than assuming that similarly named products contain the same amount of nicotine. Higher nicotine concentrations are not automatically better — the more nicotine a product contains, the greater the potential exposure when it is used frequently.</p>
+
+      <h3 style="font-size:22px; margin-top:32px; margin-bottom:12px;">Signs of Too Much Nicotine</h3>
+      <p class="body-text">Nicotine overexposure can cause symptoms such as:</p>
+      <div class="symptom-grid">
+        <div class="symptom-item">Nausea</div>
+        <div class="symptom-item">Dizziness</div>
+        <div class="symptom-item">Headache</div>
+        <div class="symptom-item">Sweating</div>
+        <div class="symptom-item">Shakiness</div>
+        <div class="symptom-item">Increased heart rate</div>
+        <div class="symptom-item">Vomiting</div>
+      </div>
+      <div class="warn-box">
+        <h4>Seek Help If Needed</h4>
+        <p>If someone develops significant symptoms after nicotine exposure, they should stop using the product and seek appropriate medical or poison-control advice. Severe symptoms require urgent medical attention. Nicotine liquids should also be kept away from children and pets because accidental ingestion can be dangerous.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARISON -->
+  <section class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Know the Difference</span>
+        <h2>ELFIQ Nic Salts vs. Freebase Nicotine</h2>
+        <p>Understanding the difference between nicotine salt and freebase nicotine can make product descriptions easier to interpret.</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Characteristic</th><th>Nicotine Salts</th><th>Freebase Nicotine</th></tr></thead>
+          <tbody>
+            <tr><td>Formulation</td><td>Modified nicotine formulation</td><td>Traditional nicotine form</td></tr>
+            <tr><td>Common use</td><td>Pod-style products</td><td>Tanks and various vape devices</td></tr>
+            <tr><td>Higher strengths</td><td>Often formulated for them</td><td>Can feel harsher at higher strengths</td></tr>
+            <tr><td>Throat sensation</td><td>Often perceived as smoother</td><td>Can provide stronger throat sensation</td></tr>
+            <tr><td>Device suitability</td><td>Often low-power devices</td><td>Depends on formulation and device</td></tr>
+            <tr><td>Nicotine exposure</td><td>Still contains addictive nicotine</td><td>Still contains addictive nicotine</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="body-text" style="margin-top:22px;">The differences do not make either type risk-free.</p>
+    </div>
+  </section>
+
+  <!-- SAFETY -->
+  <section id="safety">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Read This First</span>
+        <h2>Is ELFIQ Nic Salt Safe?</h2>
+        <p>Nicotine-containing vaping products are not risk-free.</p>
+      </div>
+      <p class="body-text">Nicotine is addictive and can affect the cardiovascular and nervous systems. Vaping also exposes users to substances generated or contained in the aerosol.</p>
+      <div class="warn-box">
+        <h4>Who Should Avoid Nicotine Products</h4>
+        <p>People who do not use tobacco or nicotine should generally avoid starting. Pregnant people should avoid nicotine because it can harm fetal development. Young people are also particularly vulnerable to nicotine addiction and should not use nicotine products.</p>
+      </div>
+      <p class="body-text" style="margin-top:22px;">For adults who currently use tobacco, switching completely away from combustible tobacco may have different health implications than using both cigarettes and vape products, but individual medical advice should come from a qualified healthcare professional.</p>
+
+      <h3 style="font-size:22px; margin-top:32px; margin-bottom:12px;">Storage and Handling</h3>
+      <p class="body-text">Keep bottles tightly closed and store them somewhere inaccessible to children and animals. Avoid contact between concentrated e-liquid and skin or eyes — if liquid spills onto the skin, wash the area promptly with soap and water. Do not leave nicotine liquids in direct sunlight or extreme heat, and follow the storage instructions printed on the product packaging. Damaged, leaking, or improperly labeled bottles should not be used.</p>
+    </div>
+  </section>
+
+  <!-- BUYING RESPONSIBLY (mid-content second link) -->
+  <section class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Shop Smart</span>
+        <h2>Buying ELFIQ Nic Salts Responsibly</h2>
+        <p>When researching ELFIQ nic salts, buyers should pay attention to more than flavor.</p>
+      </div>
+      <p class="body-text">Check the product name, nicotine concentration, bottle size, ingredients, manufacturer information, authenticity details, and applicable age restrictions. A reputable retailer should provide clear product information rather than making unrealistic health claims.</p>
+      <p class="inline-link-note">Be cautious with websites offering unusually cheap nicotine products, unclear ingredients, missing safety information, or products that appear to have been altered or repackaged — for general reference on retailer standards, resources such as <a href="https://highrockvapes.ie/collections/lost-mary" class="cta-link">lost mary</a> can be a useful starting point when comparing sources.</p>
+    </div>
+  </section>
+
+  <!-- COMMON MISTAKES -->
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Avoid These Pitfalls</span>
+        <h2>Common Mistakes to Avoid</h2>
+      </div>
+      <p class="body-text">One common mistake is choosing nicotine strength based solely on what another person uses — nicotine exposure depends on the product, device, frequency, and individual circumstances. Another mistake is using a nicotine salt liquid in a device that is not designed for that formulation.</p>
+      <p class="body-text">Users should also avoid leaving bottles where children can reach them and should never treat nicotine liquid as an ordinary flavored beverage or harmless household product. Finally, mixing different nicotine liquids without understanding their concentrations can make it difficult to estimate total nicotine exposure.</p>
+    </div>
+  </section>
+
+  <!-- CHECKLIST -->
+  <section class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Before You Buy or Use</span>
+        <h2>ELFIQ Nic Salts Checklist</h2>
+      </div>
+      <ul class="checklist">
+        <li>Check the nicotine concentration on the label</li>
+        <li>Confirm that the liquid is compatible with the intended device</li>
+        <li>Review the ingredient and manufacturer information</li>
+        <li>Check local age and vaping regulations</li>
+        <li>Purchase from a reputable source</li>
+        <li>Keep nicotine liquid away from children and pets</li>
+        <li>Store the bottle according to its label instructions</li>
+        <li>Stop using the product if it causes significant adverse symptoms</li>
+        <li>Never assume that a smoother throat sensation means lower nicotine exposure</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONSULTATION -->
+  <section>
+    <div class="wrap two-col">
+      <div>
+        <span class="eyebrow">Making a Choice</span>
+        <h2 style="font-size:24px; margin-bottom:14px;">Consultation: Choosing the Right Product</h2>
+        <p class="body-text">If you currently use nicotine and are considering a different vaping product, the most useful approach is to understand your nicotine intake rather than selecting a product solely because it has an attractive flavor or high strength.</p>
+      </div>
+      <div class="panel">
+        <p class="body-text" style="margin-bottom:0;">A healthcare professional can provide individualized guidance about nicotine dependence, quitting, or reducing nicotine use. For people trying to stop smoking, evidence-based smoking-cessation support may be more appropriate than simply moving between different vaping products. If you are unsure about nicotine exposure, device compatibility, or symptoms after using an e-liquid, consult a qualified professional instead of relying solely on online product descriptions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONCLUSION -->
+  <section class="alt">
+    <div class="wrap">
+      <div class="conclusion">
+        <span class="eyebrow" style="color:var(--amber);">In Summary</span>
+        <h2>Smoother Isn't the Same as Harmless</h2>
+        <p>ELFIQ nic salts are nicotine-salt vaping products associated with pod-style devices and a variety of potential flavor and strength options. Their salt-based formulation can provide a smoother sensation than some freebase nicotine products, particularly at higher concentrations.</p>
+        <p>However, smoother does not mean harmless. Nicotine remains addictive, and responsible use requires attention to concentration, device compatibility, storage, age restrictions, and potential symptoms of excessive nicotine exposure. Anyone researching ELFIQ nic salts should verify the exact product information on  <a href="https://zainjuttihirhega-ui.github.io/Hayati/ " class="cta-link">hayati</a>  its packaging and use authorized sources for current details. For people who do not already use nicotine, starting with nicotine salt products is not recommended — for current nicotine users who want to quit or reduce their intake, professional cessation support can provide a safer long-term direction.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Quick Answers</span>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list">
+        <details open>
+          <summary>What are ELFIQ nic salts?</summary>
+          <p>ELFIQ nic salts are nicotine-containing vape liquids formulated using nicotine-salt technology. They may be designed for compatible pod-style vaping devices.</p>
+        </details>
+        <details>
+          <summary>Are nicotine salts the same as freebase nicotine?</summary>
+          <p>No. They use different formulations. Nicotine salts are generally designed to provide a smoother experience at concentrations commonly used in pod products.</p>
+        </details>
+        <details>
+          <summary>Do ELFIQ nic salts contain nicotine?</summary>
+          <p>Products described as nic salts normally contain nicotine. The exact concentration should always be checked on the product label.</p>
+        </details>
+        <details>
+          <summary>Can nicotine salts be addictive?</summary>
+          <p>Yes. Nicotine is addictive regardless of whether it is delivered as a nicotine salt or freebase nicotine.</p>
+        </details>
+        <details>
+          <summary>Can I use nic salts in any vape?</summary>
+          <p>No. Device compatibility depends on the specific product and device. Always follow the manufacturer's recommendations.</p>
+        </details>
+        <details>
+          <summary>Are higher nicotine strengths better?</summary>
+          <p>No. Higher concentration means greater nicotine content per amount of liquid and can increase exposure. Users should not assume that stronger products are better.</p>
+        </details>
+        <details>
+          <summary>What flavors are available?</summary>
+          <p>Flavor availability depends on the current ELFIQ range and market. Products may include fruit, cooling, tobacco, beverage, or sweet flavor profiles.</p>
+        </details>
+        <details>
+          <summary>Can children use nicotine salt products?</summary>
+          <p>No. Nicotine products should be kept away from children and young people. Accidental ingestion of nicotine liquid can be dangerous.</p>
+        </details>
+        <details>
+          <summary>What happens if someone gets too much nicotine?</summary>
+          <p>Possible symptoms include nausea, dizziness, headache, sweating, shakiness, increased heart rate, and vomiting. Significant or severe symptoms require prompt medical or poison-control assistance.</p>
+        </details>
+        <details>
+          <summary>Is vaping nicotine risk-free?</summary>
+          <p>No. Nicotine is addictive, and vaping is not risk-free. People who do not currently use nicotine should not start vaping.</p>
+        </details>
+      </div>
+      <div class="med-disclaimer">
+        This page provides general product information for adults who already use nicotine products and is not intended to encourage nicotine use. Nicotine is addictive. This content does not constitute medical advice — consult a qualified healthcare professional for guidance on nicotine use, dependence, or cessation. Products are restricted to legal purchasing age in your jurisdiction.
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#top" class="brand"><span class="brand-mark"></span>ELFIQ Guide</a>
+        <p>Independent product information on ELFIQ nic salts — flavors, strengths, compatibility, and safety.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Guide</h4>
+        <ul>
+          <li><a href="#what-is-it">Overview</a></li>
+          <li><a href="#flavors">Flavors</a></li>
+          <li><a href="#strength">Strength</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Safety</h4>
+        <ul>
+          <li><a href="#safety">Safety Information</a></li>
+          <li><a href="#safety">Storage &amp; Handling</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="https://highrockvapes.ie/collections/elf-bar-elfiq-eliquid">View Collection</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 ELFIQ Guide. 18+ Only. For educational purposes only.</p>
+      <div class="social-row">
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7H7.9V12h2.6V9.8c0-2.6 1.5-4 3.9-4 1.1 0 2.3.2 2.3.2v2.5h-1.3c-1.3 0-1.7.8-1.7 1.6V12h2.9l-.5 2.9h-2.4v7A10 10 0 0 0 22 12Z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 2 .3 2.4.5.6.2 1 .5 1.5 1 .4.4.7.9 1 1.5.2.5.4 1.2.5 2.4.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 2-.5 2.4-.3.6-.6 1-1 1.5-.5.4-.9.7-1.5 1-.5.2-1.2.4-2.4.5-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-2-.3-2.4-.5-.6-.3-1-.6-1.5-1-.4-.5-.7-.9-1-1.5-.2-.5-.4-1.2-.5-2.4-.1-1.3-.1-1.7-.1-4.9s0-3.6.1-4.9c.1-1.2.3-2 .5-2.4.2-.6.6-1 1-1.5.4-.4.9-.7 1.5-1 .5-.2 1.2-.4 2.4-.5C8.4 2.2 8.8 2.2 12 2.2Zm0 1.8c-3.1 0-3.5 0-4.7.1-1 .1-1.6.2-2 .4-.5.2-.8.4-1.2.7-.3.4-.5.7-.7 1.2-.2.4-.3 1-.4 2-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c.1 1 .2 1.6.4 2 .2.5.4.8.7 1.2.4.3.7.5 1.2.7.4.2 1 .3 2 .4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1-.1 1.6-.2 2-.4.5-.2.8-.4 1.2-.7.3-.4.5-.7.7-1.2.2-.4.3-1 .4-2 .1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1-.2-1.6-.4-2-.2-.5-.4-.8-.7-1.2-.4-.3-.7-.5-1.2-.7-.4-.2-1-.3-2-.4-1.2-.1-1.6-.1-4.7-.1Zm0 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm0 1.8a2.7 2.7 0 1 0 0 5.4 2.7 2.7 0 0 0 0-5.4Zm5.7-2a1 1 0 1 1-2.1 0 1 1 0 0 1 2.1 0Z"/></svg></a>
+        <a href="#" aria-label="X"><svg viewBox="0 0 24 24"><path d="M18.9 2.6h3.3l-7.2 8.2 8.5 11.2h-6.6l-5.2-6.8-5.9 6.8H2.4l7.7-8.8L2 2.6h6.8l4.7 6.2 5.4-6.2Zm-1.2 17.4h1.8L7.4 4.5H5.5l12.2 15.5Z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
